@@ -12,9 +12,8 @@
         let html5 = document.getElementsByTagName("website");
         if (html5.length != 1){
             throw SyntaxError("No website tag fund!");
-        }else{
-            html5 = html5[0]
         }
+        html5 = html5[0]
 
         Element(html5).inerHTML = <text>
             Hallo Welt...!
