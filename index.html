@@ -8,10 +8,23 @@
     <meta name="description" content="SGrub website on githun pages.">
     <meta name="author" content="joschatom - github">
     <title>SGrub</title>
-    <script scr="load.js"></script>
+    <script>
+        let html5 = document.getElementsByTagName("website");
+        if (html5.length != 1){
+            throw SyntaxError("No website tag fund!");
+            return -2
+        }
+        else{
+            html5 = html5[0]
+        }
+
+        Element(html5).inerHTML = <text>
+            Hallo Welt...!
+        </text>
+
+    </script>
 </head>
     <body>
         <noscript>This site not go width noscript!</noscript>
-        <div name="root"></div>
     </body>
 </html>
