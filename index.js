@@ -8,4 +8,4 @@ let html5 = document.getElementsByTagName("website");
 html5[0].innerHTML = <div>
     <p><b>Hallo</b> Welt!</p>
 </div>;
-html5[0].innerHTML = "Hello Wordl...!";
+html5[0].innerHTML = open("index.htm");
